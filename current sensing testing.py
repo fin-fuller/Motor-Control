@@ -1,4 +1,9 @@
-#this file is for the current sensing only
+
+
+
+#---this file is for a low level approach to reading the current from an Adafruit breakout board with INA228 power monitor. Using uPython for use with the Raspberry Pi Pico
+
+
 from machine import Pin, I2C, PWM
 from time import sleep
 import sys
@@ -161,4 +166,5 @@ def current_sense():
         sys.exit()
 current_sense()
     
+
 #---CURRENT SENSING TESTING---#
